@@ -405,7 +405,7 @@ function createPanZoom(domElement, options) {
 
   function listenForEvents() {
     owner.addEventListener('mousedown', onMouseDown)
-    owner.addEventListener('dblclick', onDoubleClick)
+    // owner.addEventListener('dblclick', onDoubleClick)
     owner.addEventListener('touchstart', onTouch)
     owner.addEventListener('keydown', onKeyDown)
 
